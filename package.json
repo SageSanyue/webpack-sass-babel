@@ -20,6 +20,13 @@
     "webpack-cli": "^3.0.3"
   },
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
     "lodash": "^4.17.10"
+  },
+  "babel":{
+    "presets": ["env"],
+    "plugins": []
   }
 }

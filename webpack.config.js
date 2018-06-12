@@ -30,9 +30,12 @@ module.exports = {
             }, {
                 loader: "sass-loader" // 将 Sass 编译成 CSS
         }]
-      }
-
-
+      },
+      {
+               test: /\.js$/,
+                exclude: /node_modules/,
+                loader: "babel-loader"
+              }
     ]
-  }   
-};
+ }
+}
